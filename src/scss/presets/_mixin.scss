@@ -1,0 +1,12 @@
+
+@mixin pc {
+  @media all and (min-width: 641px) {
+    @content;
+  }
+}
+
+@mixin sp {
+  @media all and (max-width: 640px) {
+    @content;
+  }
+}

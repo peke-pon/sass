@@ -1,0 +1,26 @@
+extends modules/_layout
+
+block meta
+  - var title= "colordrops";
+  - var description= "dscription";
+  - var keywords= "keyword";
+
+append style
+  link(rel="stylesheet" href="css/style.css")
+
+block content
+  include modules/_tool
+  .navWrapper
+    nav
+      img(src="images/logo.svg" alt="logo" id="size")
+  .wrapper
+    .container
+      - for (var i = 1; i <= 30; i++)
+        - i < 10 ? i = "0" + i : i ;
+          include modules/_card
+
+block footer
+  include modules/_footer
+
+block script
+  script(src="scripts/index.js")

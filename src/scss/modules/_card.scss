@@ -1,0 +1,89 @@
+%center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 170px;
+  flex-grow: 1;
+  margin-right: 30px;
+  margin-bottom: 80px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(142, 162, 206, 0.356);
+  transition: 0.3s;
+  &:hover {
+    box-shadow: 0 8px 24px rgba(142, 162, 206, 0.452);
+    transform: translateY(-15px);
+  }
+}
+
+.text {
+  padding: 10px 10px 5px;
+  background: #fff;
+}
+
+.cap {
+  font-size: 22px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  opacity: 0.4;
+  user-select: none;
+}
+
+.caphov {
+  opacity: 0.8;
+}
+
+.hex {
+  font-family: Numans, sans-serif;
+  font-size: 20px;
+  display: none;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hexhov {
+  display: block;
+  opacity: 0.9;
+}
+
+.color {
+  @extend %center;
+  height: 170px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.colorhov {
+  border-radius: 60px;
+}
+
+.bt-line {
+  background: #fff;
+  height: 5px;
+}
+.color-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+// SP用設定 --------------------------
+
+@include sp {
+  .box {
+    width: 180px;
+    margin-bottom: 50px;
+    margin-right: 0;
+  }
+
+  .hex {
+    font-size: 20px;
+    opacity: 0.2;
+  }
+  #size {
+    width: 70px;
+    height: auto;
+  }
+}

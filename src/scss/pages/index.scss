@@ -1,0 +1,65 @@
+.wrapper {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding-left: 30px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+@include pc {
+  .wrapper {
+    padding-left: 90px;
+  }
+}
+
+nav {
+  background: #fff;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  box-shadow: $color-shadow;
+  img {
+    max-width: 170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@include sp {
+  .navWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .navWrapper img {
+    width: 160px;
+  }
+
+  nav {
+    padding-top: 5px;
+    padding-bottom: 0;
+    img {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+  }
+}
+
+@include sp {
+  .wrapper {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 100px;
+  }
+  .container {
+    margin-top: 30px;
+  }
+
+}
