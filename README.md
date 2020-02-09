@@ -4,7 +4,7 @@
 
 ## ネスト
 
-```sass
+```scss
 // css
 .wrapper {
   width: 980px;
@@ -34,7 +34,7 @@
 
 ## &参照
 
-```sass
+```scss
 // css
 li a {
   background-color: #4567fa;
@@ -62,7 +62,7 @@ li {
 
 ## &参照2
 
-```sass
+```scss
 // css
 .element {
   width: 150px;
@@ -88,7 +88,7 @@ li {
 
 ## $変数
 
-```sass
+```scss
 // css
 @charset "UTF-8";
 body {
@@ -118,7 +118,7 @@ body {
 
 ## @extend
 
-```sass
+```scss
 // css
 .line .right, .line .left {
   height: 8px;
@@ -158,7 +158,7 @@ body {
 
 ## @mixin
 
-```sass
+```scss
 // css
 footer {
   margin-top: 30px;
@@ -200,7 +200,7 @@ footer {
 
 ## @import
 
-```sass
+```scss
 // 個別にしたファイルをまとめてコンパイルできる
 @import 'presets/**/*.scss';
 @import 'modules/**/*.scss';
@@ -210,7 +210,7 @@ footer {
 
 ## @function
 
-```sass
+```scss
 // $変数名: 設定内容;
 $color-shadow: 0 3px 6px rgba(119, 119, 119, 0.096);
 
