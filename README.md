@@ -2,7 +2,7 @@
 
 ## style.scss
 
-```css
+```scss
 // @importで個別にしたファイルをまとめてコンパイルできる
 @import 'presets/**/*.scss';
 @import 'modules/**/*.scss';
@@ -10,7 +10,7 @@
 ```
 ## _variable.scss
 
-```css
+```scss
 // $変数名: 設定内容;
 $color-shadow: 0 3px 6px rgba(119, 119, 119, 0.096);
 
