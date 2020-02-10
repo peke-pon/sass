@@ -26,153 +26,123 @@ ul {
 }
 
 .box:nth-of-type(1) .color {
-  background: #37e1e8;
-  opacity: 0.6;
+  background: #d2a7bb;
 }
 
 .box:nth-of-type(2) .color {
-  background: #187c0f;
-  opacity: 0.6;
+  background: #f29dab;
 }
 
 .box:nth-of-type(3) .color {
-  background: #f371f5;
-  opacity: 0.6;
+  background: #5666b9;
 }
 
 .box:nth-of-type(4) .color {
-  background: #bf0c3c;
-  opacity: 0.6;
+  background: #d0b6c1;
 }
 
 .box:nth-of-type(5) .color {
-  background: #afbe41;
-  opacity: 0.6;
+  background: #b683d6;
 }
 
 .box:nth-of-type(6) .color {
-  background: #c2379f;
-  opacity: 0.6;
+  background: #da728e;
 }
 
 .box:nth-of-type(7) .color {
-  background: #828041;
-  opacity: 0.6;
+  background: #ed9685;
 }
 
 .box:nth-of-type(8) .color {
-  background: #b1357f;
-  opacity: 0.6;
+  background: #9fe284;
 }
 
 .box:nth-of-type(9) .color {
-  background: #2526d0;
-  opacity: 0.6;
+  background: #ed9291;
 }
 
 .box:nth-of-type(10) .color {
-  background: #fb70f2;
-  opacity: 0.6;
+  background: #d2a8d5;
 }
 
 .box:nth-of-type(11) .color {
-  background: #b0f181;
-  opacity: 0.6;
+  background: #ce7692;
 }
 
 .box:nth-of-type(12) .color {
-  background: #befdce;
-  opacity: 0.6;
+  background: #de82ca;
 }
 
 .box:nth-of-type(13) .color {
-  background: #9c0df3;
-  opacity: 0.6;
+  background: #e8ccac;
 }
 
 .box:nth-of-type(14) .color {
-  background: #a0909a;
-  opacity: 0.6;
+  background: #a3cf80;
 }
 
 .box:nth-of-type(15) .color {
-  background: #86b67f;
-  opacity: 0.6;
+  background: #e0c6c2;
 }
 
 .box:nth-of-type(16) .color {
-  background: #bdd0f6;
-  opacity: 0.6;
+  background: #c9cda0;
 }
 
 .box:nth-of-type(17) .color {
-  background: #f51f9a;
-  opacity: 0.6;
+  background: #67be7c;
 }
 
 .box:nth-of-type(18) .color {
-  background: #e9d2cd;
-  opacity: 0.6;
+  background: #c5be99;
 }
 
 .box:nth-of-type(19) .color {
-  background: #1dd452;
-  opacity: 0.6;
+  background: #f2b0d5;
 }
 
 .box:nth-of-type(20) .color {
-  background: #106eee;
-  opacity: 0.6;
+  background: #a5f3c0;
 }
 
 .box:nth-of-type(21) .color {
-  background: #a8da2b;
-  opacity: 0.6;
+  background: #73bfa0;
 }
 
 .box:nth-of-type(22) .color {
-  background: #8ec029;
-  opacity: 0.6;
+  background: #f7c9db;
 }
 
 .box:nth-of-type(23) .color {
-  background: #eb6fc8;
-  opacity: 0.6;
+  background: #94d777;
 }
 
 .box:nth-of-type(24) .color {
-  background: #7662ae;
-  opacity: 0.6;
+  background: #d09bc2;
 }
 
 .box:nth-of-type(25) .color {
-  background: #17a63b;
-  opacity: 0.6;
+  background: #bfd478;
 }
 
 .box:nth-of-type(26) .color {
-  background: #a4758e;
-  opacity: 0.6;
+  background: #f0ede0;
 }
 
 .box:nth-of-type(27) .color {
-  background: #46b0b3;
-  opacity: 0.6;
+  background: #f3b1b8;
 }
 
 .box:nth-of-type(28) .color {
-  background: #fb75ab;
-  opacity: 0.6;
+  background: #eabaad;
 }
 
 .box:nth-of-type(29) .color {
-  background: #2286bf;
-  opacity: 0.6;
+  background: #9095d6;
 }
 
 .box:nth-of-type(30) .color {
-  background: #2bbd80;
-  opacity: 0.6;
+  background: #b6dd7b;
 }
 
 .color {

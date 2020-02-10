@@ -4,12 +4,11 @@ $color-shadow: 0 3px 6px rgba(119, 119, 119, 0.096);
 
 // ランダムなカラーを設定
 @function randomColor() {
-  @return rgb(random(255), random(255), random(255));
+  @return rgb(random(200) + 50, random(200) + 50, random(150) + 50);
 }
 
 @for $i from 1 through 30 {
   .box:nth-of-type(#{$i}) .color {
-    background: randomColor();
-    opacity: 0.6;
+    background: lighten(randomColor(), 15%);
   }
 }
