@@ -229,7 +229,7 @@ $color-shadow: 0 3px 6px rgba(119, 119, 119, 0.096);
 
 ## @while
 
-```sass
+```scss
 // css
 .mt50 {
   margin-top: 50px;
@@ -286,7 +286,7 @@ $value: 50;
 
 ## @each 
 
-```sass
+```scss
 // css
 li a.Top {
   width: 25%;
@@ -309,7 +309,7 @@ $nav-names: "Top", "About", "Product", "Contact";
 
 @each $name in $nav-names {
     li a.#{$name} {
-      width: (100% / 4) ;
+      width: (100% / 4)
     }
 }
 ```
