@@ -226,3 +226,90 @@ $color-shadow: 0 3px 6px rgba(119, 119, 119, 0.096);
   }
 }
 ```
+
+## @while
+
+```sass
+// css
+.mt50 {
+  margin-top: 50px;
+}
+
+.mb50 {
+  margin-bottom: 50px;
+}
+
+.mt40 {
+  margin-top: 40px;
+}
+
+.mb40 {
+  margin-bottom: 40px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+// sass
+$value: 50;
+@while $value > 0 {
+  .mt#{$value} {
+    margin-top: $value + px;
+  }
+  .mb#{$value} {
+    margin-bottom:$value + px;
+  }
+  $value: $value - 10;
+}
+```
+
+## @each 
+
+```sass
+// css
+li a.Top {
+  width: 25%;
+}
+
+li a.About {
+  width: 25%;
+}
+
+li a.Product {
+  width: 25%;
+}
+
+li a.Contact {
+  width: 25%;
+}
+
+// sass
+$nav-names: "Top", "About", "Product", "Contact";
+
+@each $name in $nav-names {
+    li a.#{$name} {
+      width: (100% / 4) ;
+    }
+}
+```
