@@ -56,10 +56,6 @@
   cursor: pointer;
 }
 
-.colorhov {
-  border-radius: 60px;
-}
-
 .bt-line {
   background: #fff;
   height: 5px;
@@ -69,7 +65,7 @@
   justify-content: space-between;
 }
 
-// SP用設定 --------------------------
+
 
 @include sp {
   .box {

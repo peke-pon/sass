@@ -1,28 +1,5 @@
 "use strict";
 
-var colors = document.getElementsByClassName("color"),
-    disp = document.getElementsByClassName("hex");
-
-for (var e = 0; e < colors.length; e++) {
-  var o = rgbToHex(window.getComputedStyle(colors[e], null).getPropertyValue("background-color"));
-  console.log(o), disp[e].innerHTML = o;
-}
-
-function rgbToHex(e) {
-  var o = "#",
-      t = e.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
-
-  if (t) {
-    var l = [parseInt(t[1]).toString(16), parseInt(t[2]).toString(16), parseInt(t[3]).toString(16)];
-
-    for (var _e = 0; _e < l.length; ++_e) {
-      1 == l[_e].length && (l[_e] = "0" + l[_e]), o += l[_e];
-    }
-
-    return o;
-  }
-}
-
 var box = document.getElementsByClassName("box"),
     hex = document.getElementsByClassName("hex"),
     color = document.getElementsByClassName("color"),

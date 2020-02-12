@@ -26,123 +26,123 @@ ul {
 }
 
 .box:nth-of-type(1) .color {
-  background: #d2a7bb;
+  background: #c6b7df;
 }
 
 .box:nth-of-type(2) .color {
-  background: #f29dab;
+  background: #ed9b9c;
 }
 
 .box:nth-of-type(3) .color {
-  background: #5666b9;
+  background: #d7cbbd;
 }
 
 .box:nth-of-type(4) .color {
-  background: #d0b6c1;
+  background: #d384c7;
 }
 
 .box:nth-of-type(5) .color {
-  background: #b683d6;
+  background: #d4db92;
 }
 
 .box:nth-of-type(6) .color {
-  background: #da728e;
+  background: #b7c6de;
 }
 
 .box:nth-of-type(7) .color {
-  background: #ed9685;
+  background: #9c9077;
 }
 
 .box:nth-of-type(8) .color {
-  background: #9fe284;
+  background: #e07779;
 }
 
 .box:nth-of-type(9) .color {
-  background: #ed9291;
+  background: #bdcaa6;
 }
 
 .box:nth-of-type(10) .color {
-  background: #d2a8d5;
+  background: #cf65ab;
 }
 
 .box:nth-of-type(11) .color {
-  background: #ce7692;
+  background: #f2f5ec;
 }
 
 .box:nth-of-type(12) .color {
-  background: #de82ca;
+  background: #b7b7d8;
 }
 
 .box:nth-of-type(13) .color {
-  background: #e8ccac;
+  background: #b671b4;
 }
 
 .box:nth-of-type(14) .color {
-  background: #a3cf80;
+  background: #6f95d1;
 }
 
 .box:nth-of-type(15) .color {
-  background: #e0c6c2;
+  background: #acbe8b;
 }
 
 .box:nth-of-type(16) .color {
-  background: #c9cda0;
+  background: #fc979b;
 }
 
 .box:nth-of-type(17) .color {
-  background: #67be7c;
+  background: #80997b;
 }
 
 .box:nth-of-type(18) .color {
-  background: #c5be99;
+  background: #ec919a;
 }
 
 .box:nth-of-type(19) .color {
-  background: #f2b0d5;
+  background: #e4d9cb;
 }
 
 .box:nth-of-type(20) .color {
-  background: #a5f3c0;
+  background: #fcc99e;
 }
 
 .box:nth-of-type(21) .color {
-  background: #73bfa0;
+  background: #deaa97;
 }
 
 .box:nth-of-type(22) .color {
-  background: #f7c9db;
+  background: #bdde79;
 }
 
 .box:nth-of-type(23) .color {
-  background: #94d777;
+  background: #99fcc2;
 }
 
 .box:nth-of-type(24) .color {
-  background: #d09bc2;
+  background: #92f1b9;
 }
 
 .box:nth-of-type(25) .color {
-  background: #bfd478;
+  background: #d7806a;
 }
 
 .box:nth-of-type(26) .color {
-  background: #f0ede0;
+  background: #7efcc1;
 }
 
 .box:nth-of-type(27) .color {
-  background: #f3b1b8;
+  background: #c4b6ab;
 }
 
 .box:nth-of-type(28) .color {
-  background: #eabaad;
+  background: #e5a0c2;
 }
 
 .box:nth-of-type(29) .color {
-  background: #9095d6;
+  background: #d0c2aa;
 }
 
 .box:nth-of-type(30) .color {
-  background: #b6dd7b;
+  background: #e3fa90;
 }
 
 .color {
@@ -223,10 +223,6 @@ ul {
   height: 170px;
   cursor: pointer;
   transition: 0.3s;
-}
-
-.colorhov {
-  border-radius: 60px;
 }
 
 .bt-line {
